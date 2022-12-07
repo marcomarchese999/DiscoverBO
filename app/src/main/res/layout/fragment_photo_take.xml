@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_camera"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.discoverbolo.ui.imageClassification.ImageCaptureFragment">
+
+    <Button
+        android:id="@+id/take_picture_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="70dp"
+        android:text="Take Picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/goto_info_button"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="#F9F8FA"
+        android:rotation="0"
+        android:src="@drawable/info" />
+
+    <!--<Button
+        android:visibility="gone"
+        android:id="@+id/goto_info_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="136dp"
+        android:text="Go to info"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+        -->
+
+
+    <ImageView
+        android:layout_width="235sp"
+        android:layout_height="235sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="10sp"
+        />
+    <!--
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Classified as:"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:id="@+id/classified"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="10sp"
+        />
+-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="#C30000"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:id="@+id/result"
+        android:layout_below="@+id/imageView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="                        "
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:id="@+id/confidenceTextView"
+        android:layout_below="@+id/result"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="210dp"
+        />
+
+
+</RelativeLayout>

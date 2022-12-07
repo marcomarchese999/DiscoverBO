@@ -1,0 +1,12 @@
+le_due_torri;44.4942;11.3467
+basilica_san_petronio;44.4929;11.3431
+fontana_del_nettuno;44.4943;11.3427
+basilica_di_san_domenico;44.4896;11.3441
+basilica_di_san_francesco;44.4949;11.3352
+basilica_di_santo_stefano;44.4921;11.3485
+porta_saragozza;44.4905;11.3300
+santuario_di_san_luca;44.4791;11.2981
+finestrella;44.4985;11.3452
+monumento_a_ugo_bassi;44.4956;11.3390
+palazzo_re_enzo;44.4945;11.3430
+porta_lame;44.5024;11.3333

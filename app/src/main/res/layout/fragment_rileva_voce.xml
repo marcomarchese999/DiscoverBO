@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/navigation_voice"
+    tools:context=".ui.voiceRecognition.VoiceFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="25px"
+        android:layout_marginTop="20px"
+        android:layout_marginEnd="25px"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/textSearch"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_centerVertical="false"
+            android:hint="Search"
+            android:padding="10dp" />
+
+        <ImageView
+            android:id="@+id/buttonVoiceSearch"
+            android:layout_width="70px"
+            android:layout_height="100px"
+            android:backgroundTint="#F9F8FA"
+            android:src="@drawable/ic_mic_black_off" />
+
+
+        <ImageView
+            android:id="@+id/mapButton"
+            android:layout_width="70px"
+            android:layout_height="80px"
+            android:backgroundTint="#F9F8FA"
+            android:rotation="0"
+            android:visibility="gone"
+            android:src="@drawable/localization" />
+
+        <ImageView
+            android:id="@+id/buttonTextSearch"
+            android:layout_width="70px"
+            android:layout_height="100px"
+            android:backgroundTint="#F9F8FA"
+            android:rotation="90"
+            android:src="@drawable/ic_search" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/boxMonument"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5px"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"></TextView>
+
+</LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
