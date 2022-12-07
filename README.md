@@ -1,0 +1,5 @@
+# DiscoverBO
+
+DiscoverBo nasce con l’obiettivo di realizzare un’applicazione per dispositivi Android che possa servire da guida per un turista o per chiunque voglia scoprire qualcosa di più sulla città di Bologna.
+L’applicazione presenta una parte di riconoscimento di immagini, svolta servendosi di algoritmi di Image Classification, e un’altra di riconoscimento vocale, entrambe finalizzate all’identificazione di un determinato monumento della città di Bologna. Una volta effettuato il riconoscimento del monumento, sarà possibile leggerne la rispettiva storia e sarà possibile accedere, mediante un collegamento con Google Maps, ad un eventuale percorso necessario per raggiungerlo.
+L’utente, pertanto, nel caso in cui si trovi dinnanzi al monumento, potrà accedere alla rispettiva storia scattandogli una foto. Nel caso in cui, invece, non si trovi in loco, potrà trovare il monumento desiderato servendosi della funzione di riconoscimento vocale (pronunciandone il nome), e poi raggiungerlo grazie al collegamento a Google Maps, che una volta aperto, offrirà il percorso migliore da seguire basandosi sul luogo di partenza in cui l’utente si trova. 
